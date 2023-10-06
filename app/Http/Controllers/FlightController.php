@@ -6,7 +6,6 @@ use App\Models\Flight;
 use App\Http\Requests\StoreFlightRequest;
 use App\Http\Requests\UpdateFlightRequest;
 
-#[OpenApi\PathItem]
 class FlightController extends Controller
 {
     /**
